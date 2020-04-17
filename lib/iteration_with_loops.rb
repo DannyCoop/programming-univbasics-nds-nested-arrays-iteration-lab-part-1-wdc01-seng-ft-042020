@@ -11,7 +11,7 @@ def find_even_values(src)
     inner_len = src[idx_outer].length
     while idx_inner < inner_len do
       if src[idx_outer][idx_inner] % 2 == 0
-        puts "src[idx_outer][idx_inner]"
+        puts src[idx_outer][idx_inner]
       end
       idx_inner += 1
     end
